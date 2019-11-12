@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  background: url(./Fire-background.png) repeat-x bottom;
+  background-position-y: 150%;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    background: url(./Fire-background@2x.png) repeat-x bottom;
+    background-position-y: 110%;
+  }
+}
+
+main {
+  text-align: center;
+}
+
+.header__text {
+  padding: 2rem 0;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+
+  background-size: cover;
+}
+
+.header-background {
+  background: url("./Megan-Thee-Header.png") no-repeat center;
+  background-size: contain;
+  height: 250px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header-background {
+    background: url("./Megan-Thee-Header@2x.png") no-repeat center;
+    background-size: contain;
+    height: 250px;
+  }
+}
+
+.megan-thee {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-generate {
+  background: #d81b1a;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem 1.75rem;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: #dadada 0px 0px 5px;
+}
