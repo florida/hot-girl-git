@@ -18,5 +18,3 @@ const randomWord = frm => {
 function generateWords() {
   word.innerText = randomWord(words);
 }
-
-generateWords();

@@ -62,3 +62,7 @@ footer {
   outline: none;
   box-shadow: #dadada 0px 0px 5px;
 }
+
+.wordgen {
+  border-bottom: 3px solid black;
+}
