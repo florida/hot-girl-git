@@ -7,7 +7,8 @@ const words = [
   "Decentralisation",
   "Fertilization",
   "Accommodation",
-  "Dehydration"
+  "Dehydration",
+  "Scallion"
 ];
 
 const randomWord = frm => {
