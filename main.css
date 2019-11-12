@@ -51,6 +51,12 @@ footer {
   text-transform: uppercase;
 }
 
+@media (max-width: 640px) {
+  .megan-thee {
+    font-size: 2rem;
+  }
+}
+
 .btn-generate {
   background: #d81b1a;
   cursor: pointer;
