@@ -72,3 +72,21 @@ footer {
 .wordgen {
   border-bottom: 3px solid black;
 }
+
+.credits {
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.credits a {
+  color: #d81b1a;
+  text-decoration: none;
+}
+
+.credits p {
+  margin: 0 0 10px;
+}
