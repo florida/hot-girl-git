@@ -86,7 +86,7 @@ function generateWords() {
   const textGenerated = randomWord(words);
   word.innerText = textGenerated;
 
-  gtag("send", {
+  window.gtag("send", {
     hitType: "event",
     eventCategory: "click",
     eventAction: "generate",
