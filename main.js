@@ -72,7 +72,7 @@ const words = [
   "grand canyon",
   "direct action",
   "chemical reaction",
-  "allergic reaction"
+  "allergic reaction",
   "overreaction",
   "microtransaction"
 ];
