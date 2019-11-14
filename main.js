@@ -86,5 +86,10 @@ function generateWords() {
   const textGenerated = randomWord(words);
   word.innerText = textGenerated;
 
-  ga("send", "event", "click", "CTA", "Generate", textGenerated);
+  gtag("send", {
+    hitType: "event",
+    eventCategory: "click",
+    eventAction: "generate",
+    eventLabel: textGenerated
+  });
 }
