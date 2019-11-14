@@ -60,5 +60,8 @@ const randomWord = frm => {
 };
 
 function generateWords() {
-  word.innerText = randomWord(words);
+  const textGenerated = randomWord(words);
+  word.innerText = textGenerated;
+
+  ga("send", "event", "click", "CTA", "Generate", textGenerated);
 }
