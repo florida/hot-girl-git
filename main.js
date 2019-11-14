@@ -14,7 +14,7 @@ const words = [
   "admission",
   "abomination",
   "addition",
-  "carbonatation",
+  "carbonation",
   "capitalization",
   "circulation",
   "circumnavigation",
@@ -51,7 +51,25 @@ const words = [
   "sedimentation",
   "serialization",
   "suction",
-  "suggestion"
+  "suggestion",
+  "battallion",
+  "rapscallion",
+  "rascallion",
+  "tatterdemalion",
+  "distraction",
+  "banyan",
+  "diffraction",
+  "redaction",
+  "benefaction",
+  "interaction",
+  "liquefaction",
+  "protraction",
+  "refraction",
+  "canyon",
+  "subtraction",
+  "companion",
+  "extraction",
+  "italian"
 ];
 
 const randomWord = frm => {
