@@ -54,7 +54,6 @@ const words = [
   "suggestion",
   "battallion",
   "rapscallion",
-  "rascallion",
   "tatterdemalion",
   "distraction",
   "banyan",
