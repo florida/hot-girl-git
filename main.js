@@ -69,7 +69,13 @@ const words = [
   "subtraction",
   "companion",
   "extraction",
-  "italian"
+  "italian",
+  "grand canyon",
+  "direct action",
+  "chemical reaction",
+  "allergic reaction"
+  "overreaction",
+  "microtransaction"
 ];
 
 const randomWord = frm => {
